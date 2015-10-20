@@ -11,4 +11,4 @@ Afin d'échanger sur les différentes décisions et fonctionnalités techniques 
 
 Ce blog utilise [Jekyll Bootstrap](http://jekyllbootstrap.com/) et est hébergé sur [Github](https://github.com/). Tout membre du groupe dédié à l'écriture du blog sur **ungdev** peut rajouter un billet sur le blog.
 
-Faites partager votre savoir ! {% icon fa-paw %}
+Faites partager votre savoir !
