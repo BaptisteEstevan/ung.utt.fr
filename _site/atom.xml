@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>UTT Net Group</title>
+ <link href="http://ungdev.github.io/atom.xml" rel="self"/>
+ <link href="http://ungdev.github.io"/>
+ <updated>2015-10-20T19:55:18+02:00</updated>
+ <id>http://ungdev.github.io</id>
+ <author>
+   <name>UTT Net Group</name>
+   <email>ung@utt.fr</email>
+ </author>
+
+ 
+ <entry>
+   <title>Nouveau Blog</title>
+   <link href="http://ungdev.github.io/blog/2015/10/19/nouveau-blog"/>
+   <updated>2015-10-19T00:00:00+02:00</updated>
+   <id>http://ungdev.github.io/blog/2015/10/19/nouveau-blog</id>
+   <content type="html">
+&lt;p&gt;Hello à tous !&lt;/p&gt;
+
+&lt;p&gt;Afin d’échanger sur les différentes décisions et fonctionnalités techniques faites à l’UNG, et de manière plus générale sur ce que peut/pourrait faire l’asso, une nouvelle plateforme était nécessaire. Voilà qui est maintenant chose faite.&lt;/p&gt;
+
+&lt;p&gt;Ce blog utilise &lt;a href=&quot;http://jekyllbootstrap.com/&quot;&gt;Jekyll Bootstrap&lt;/a&gt; et est hébergé sur &lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;. Tout membre du groupe dédié à l’écriture du blog sur &lt;strong&gt;ungdev&lt;/strong&gt; peut rajouter un billet sur le blog.&lt;/p&gt;
+
+&lt;p&gt;Faites partager votre savoir ! &lt;i class=&quot;fa fa-paw&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>

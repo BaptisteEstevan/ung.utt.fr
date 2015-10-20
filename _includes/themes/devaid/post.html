@@ -1,0 +1,18 @@
+<section id="posts" class="docs section">
+	<div class="container">
+	  <div class="docs-inner">
+		  <div class="block">
+		    <h3 class="sub-title text-center"></h3>
+		    <p>
+	        <div class="block post">
+	          <h3 class="sub-title text-center"><a href="{{ site.baseurl }}{{ post.url }}">{{ page.title }}</a></h3>
+	          <div class="text-date text-center">{{ page.date | localize: "%A %d %B %Y" }}</div>
+	          <p>
+	            {{ content }}
+	          </p>
+	        </div><!--//block--> 
+		    </p>
+		  </div><!--//block-->
+	  </div>
+	</div>
+</section>

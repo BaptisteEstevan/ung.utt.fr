@@ -1,0 +1,39 @@
+---
+title : Post
+header : Blog
+group: navigation
+---
+{% include JB/setup %}
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+{% include themes/devaid/head.html %}
+<body data-spy="scroll">
+{% include themes/devaid/menu.html %}
+
+<section id="posts" class="docs section">
+	<div class="container">
+	  <div class="docs-inner">
+		  <div class="block">
+		    <h3 class="sub-title text-center"></h3>
+		    <p>
+		      {% for post in site.posts limit:5 %}
+		        <div class="block post">
+		          <h3 class="sub-title text-center"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+		          <div class="text-date text-center">{{ post.date | localize: "%A %d %B %Y" }}</div>
+		          <p>
+		            {{ post.content }}
+		          </p>
+		        </div><!--//block--> 
+		      {% endfor %}
+		    </p>
+		  </div><!--//block-->
+	  </div>
+	</div>
+</section>
+
+{% include themes/devaid/footer.html %}
+</body>
+</html>
