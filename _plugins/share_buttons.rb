@@ -17,7 +17,7 @@ module Jekyll
             class="twitter-share-button"
             data-url="#{full_url}"
             data-via="twitterapi"
-            data-lang="en">
+            data-lang="fr">
           </a>
 
           <div class="google_plus">

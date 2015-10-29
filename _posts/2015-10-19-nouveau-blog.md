@@ -1,7 +1,7 @@
 ---
 layout: post
-category : blog
-tags : [introduction, ung]
+category: blog
+tags: [introduction, ung]
 ---
 {% include JB/setup %}
 

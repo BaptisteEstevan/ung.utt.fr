@@ -6,9 +6,9 @@ group: navigation
 {% include JB/setup %}
 
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<!--[if IE 8]> <html lang="fr" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="fr" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="fr"> <!--<![endif]-->
 {% include themes/devaid/head.html %}
 <body data-spy="scroll">
 {% include themes/devaid/menu.html %}
@@ -22,13 +22,27 @@ group: navigation
 		      {% for post in site.posts limit:5 %}
 		        <div class="block post">
 		          <h3 class="sub-title text-center"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
-		          <div class="text-date text-center">{{ post.date | localize: "%A %d %B %Y" }}</div>
+		          <div class="text-date text-center">
+				{{ page.date | date: '%d' }} {% assign m = page.date | date: "%-m" %}
+					{% case m %}
+					  {% when '1' %}janvier
+					  {% when '2' %}février
+					  {% when '3' %}mars
+					  {% when '4' %}avril
+					  {% when '5' %}mai
+					  {% when '6' %}juin
+					  {% when '7' %}juillet
+					  {% when '8' %}août
+					  {% when '9' %}septembre
+					  {% when '10' %}octobre
+					  {% when '11' %}novembre
+					  {% when '12' %}décembre
+					{% endcase %} {{ page.date | date: '%Y' }}
+					</div>
 		          <p>
 		            {{ post.content }}
-		          </p>
-		        </div><!--//block--> 
+		        </div><!--//block-->
 		      {% endfor %}
-		    </p>
 		  </div><!--//block-->
 	  </div>
 	</div>
