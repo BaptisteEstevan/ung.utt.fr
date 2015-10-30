@@ -5,4 +5,5 @@ cd `dirname $0`
 tar -xzf package.tgz
 rm package.tgz
 
-mv _site/* .
+mv public_html public_html_old
+mv _site public_html
