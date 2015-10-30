@@ -7,8 +7,9 @@ tags: [introduction, ung]
 
 Hello à tous !
 
-Afin d'échanger sur les différentes décisions et fonctionnalités techniques faites à l'UNG, et de manière plus générale sur ce que peut/pourrait faire l'asso, une nouvelle plateforme était nécessaire. Voilà qui est maintenant chose faite.
+Ce blog utilise [Jekyll Bootstrap](http://jekyllbootstrap.com/) pour générer les pages du site.
+Tout membre de l'organisation **ungdev** sur Github peut rajouter un billet sur le blog, corriger des (éventuelles !) fautes d'orthographe...
 
-Ce blog utilise [Jekyll Bootstrap](http://jekyllbootstrap.com/) et est hébergé sur [Github](https://github.com/). Tout membre du groupe dédié à l'écriture du blog sur **ungdev** peut rajouter un billet sur le blog.
+Pour plus d'informations sur ce sujet, tu peux te référer au [README.md](https://github.com/ungdev/ung.utt.fr/blob/master/README.md) !
 
 Faites partager votre savoir !
