@@ -19,7 +19,7 @@ jQuery(document).ready(function($) {
   /* ======= ScrollTo ======= */
   $('a.scrollto').on('click', function(e) {
     // Do not throw the event if we are on a page of the blog or the list of the posts.
-    if (document.location.toString().indexOf('/blog/') == -1 || document.location.toString().indexOf('posts.html') == -1) {
+    if (document.location.toString().indexOf('/blog/') == -1 && document.location.toString().indexOf('posts.html') == -1) {
       var target = this.hash;
       e.preventDefault();
       $('body').scrollTo(target, 800, {
