@@ -2,7 +2,7 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title
 
-exclude: [".rvmrc", ".rbenv-version", "Gemfile", "Gemfile.lock", "README.md", "Rakefile", "changelog.md", "vendors", "travis-deploy.sh", "extract-package.sh"]
+exclude: [".rvmrc", ".rbenv-version", "Gemfile", "Gemfile.lock", "README.md", "Rakefile", "changelog.md", "vendor", "vendors", "travis-deploy.sh", "extract-package.sh"]
 highlighter: pygments
 
 # Themes are encouraged to use these universal variables
