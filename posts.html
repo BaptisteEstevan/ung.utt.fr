@@ -21,7 +21,7 @@ group: navigation
 		    <p>
 		      {% for post in site.posts limit:5 %}
 		        <div class="block post">
-		          <h3 class="sub-title text-center"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+		          <h3 class="sub-title text-center"><a href="{{ BASE_PATH }}{{ post.url }}.html">{{ post.title }}</a></h3>
 		          <div class="text-date text-center">
 				{{ page.date | date: '%d' }} {% assign m = page.date | date: "%-m" %}
 					{% case m %}
